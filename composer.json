@@ -1,0 +1,21 @@
+{
+  "name": "JayJay/CRM",
+  "description": "CRM",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jeroen Wallbrink",
+      "email": "jeroenwallbrink@gmail.com"
+    }
+  ],
+  /*
+  "autoload": {
+    "psr-4":
+      {"JayJay\\": "src/"}
+  },
+  */
+  "require": {
+    "symfony/routing": "^4.0"
+  }
+}
