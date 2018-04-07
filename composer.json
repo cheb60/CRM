@@ -1,5 +1,5 @@
 {
-  "name": "JayJay/CRM",
+  "name": "jayjay/crm",
   "description": "CRM",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -9,14 +9,14 @@
       "email": "jeroenwallbrink@gmail.com"
     }
   ],
-  /*
-  "autoload": {
-    "psr-4":
-      {"JayJay\\": "src/"}
-  },
-  */
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:cheb60/Backend.git"
+    }
+  ],
   "require": {
     "php": "^7.1",
-    "symfony/routing": "^4.0"
+    "jayjay/backend": "^1.0"
   }
 }
