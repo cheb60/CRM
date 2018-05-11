@@ -7,4 +7,13 @@
 |
 */
 
-require_once('vendor/autoload.php');
+require __DIR__ . '/vendor/autoload.php';
+
+/*
+|--------------------------------------------------------------------------
+| Boot Application
+|--------------------------------------------------------------------------
+|
+*/
+
+require __DIR__ . '/bootstrap/app.php';

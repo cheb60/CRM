@@ -17,6 +17,19 @@
   ],
   "require": {
     "php": "^7.1",
+    "symfony/routing": "^4.0",
+    "symfony/http-kernel": "^4.0",
     "jayjay/backend": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JayJay\\Backend\\": "modules/backend/",
+      "JayJay\\Classes\\": "classes/"
+    }
+  },
+  "extra": {
+    "installer-paths": {
+      "modules/{$name}/": ["type:jayjay-module"]
+    }
   }
 }
