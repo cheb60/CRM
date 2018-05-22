@@ -18,7 +18,7 @@ class Application
     private function __construct()
     {
         $this->httpKernel = new HttpKernel(new EventDispatcher(), new ControllerResolver(), new RequestStack(), new ArgumentResolver());
-        print_r(Configuration::get('app.providers'));
+        print_r(Configuration::getValue('app.database.mysql.name'));
     }
 
     /**
